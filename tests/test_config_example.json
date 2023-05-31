@@ -1,0 +1,27 @@
+{
+	"service_actions": [
+		{
+			"model": "test_model",
+			"action": "read",
+			"filters": {
+				"id": "value"
+			},
+			"data": {
+
+			},
+			"tests": {
+				"field": "value"
+			}
+		}
+	],
+	"service_endpoints": [
+		{
+			"method": "get",
+			"path": "/test/endpoint/24",
+			"statusCode": 200,
+			"tests": {
+				"field": "value"
+			}
+		}
+	]	
+}
